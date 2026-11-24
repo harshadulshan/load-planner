@@ -1,0 +1,444 @@
+{
+ "sets": {
+  "BR1": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 93.444,
+    "min_fill": 85.109,
+    "max_fill": 98.257,
+    "mean_seconds": 0.538,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 81.658,
+    "min_fill": 60.27,
+    "max_fill": 95.272,
+    "mean_seconds": 0.122,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 79.741,
+    "min_fill": 64.143,
+    "max_fill": 92.452,
+    "mean_seconds": 0.006,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR2": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 93.881,
+    "min_fill": 88.87,
+    "max_fill": 97.385,
+    "mean_seconds": 0.856,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 84.316,
+    "min_fill": 71.249,
+    "max_fill": 92.534,
+    "mean_seconds": 0.114,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 78.524,
+    "min_fill": 65.371,
+    "max_fill": 89.346,
+    "mean_seconds": 0.005,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR3": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 93.96,
+    "min_fill": 91.037,
+    "max_fill": 96.126,
+    "mean_seconds": 1.64,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 85.289,
+    "min_fill": 73.394,
+    "max_fill": 93.532,
+    "mean_seconds": 0.116,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 78.734,
+    "min_fill": 64.492,
+    "max_fill": 88.218,
+    "mean_seconds": 0.006,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR4": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 93.531,
+    "min_fill": 90.534,
+    "max_fill": 96.082,
+    "mean_seconds": 2.112,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 84.659,
+    "min_fill": 75.446,
+    "max_fill": 91.42,
+    "mean_seconds": 0.114,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 78.196,
+    "min_fill": 69.408,
+    "max_fill": 85.874,
+    "mean_seconds": 0.006,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR5": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 93.469,
+    "min_fill": 91.354,
+    "max_fill": 95.614,
+    "mean_seconds": 2.791,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 85.132,
+    "min_fill": 76.143,
+    "max_fill": 90.943,
+    "mean_seconds": 0.128,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 77.694,
+    "min_fill": 66.84,
+    "max_fill": 85.79,
+    "mean_seconds": 0.007,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR6": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 93.115,
+    "min_fill": 90.757,
+    "max_fill": 95.338,
+    "mean_seconds": 3.272,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 84.814,
+    "min_fill": 74.704,
+    "max_fill": 90.116,
+    "mean_seconds": 0.109,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 76.642,
+    "min_fill": 63.553,
+    "max_fill": 84.51,
+    "mean_seconds": 0.007,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR7": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 92.413,
+    "min_fill": 90.603,
+    "max_fill": 94.269,
+    "mean_seconds": 4.186,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 83.714,
+    "min_fill": 74.668,
+    "max_fill": 89.21,
+    "mean_seconds": 0.108,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 75.641,
+    "min_fill": 58.2,
+    "max_fill": 82.536,
+    "mean_seconds": 0.007,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR8": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 91.471,
+    "min_fill": 89.652,
+    "max_fill": 93.758,
+    "mean_seconds": 4.933,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 82.91,
+    "min_fill": 75.566,
+    "max_fill": 88.781,
+    "mean_seconds": 0.12,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 73.73,
+    "min_fill": 63.037,
+    "max_fill": 80.166,
+    "mean_seconds": 0.009,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR9": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 90.59,
+    "min_fill": 88.638,
+    "max_fill": 92.173,
+    "mean_seconds": 5.018,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 82.144,
+    "min_fill": 76.057,
+    "max_fill": 87.05,
+    "mean_seconds": 0.123,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 72.081,
+    "min_fill": 62.661,
+    "max_fill": 78.83,
+    "mean_seconds": 0.011,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR10": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 89.954,
+    "min_fill": 87.646,
+    "max_fill": 92.222,
+    "mean_seconds": 5.075,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 81.125,
+    "min_fill": 72.413,
+    "max_fill": 86.331,
+    "mean_seconds": 0.114,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 70.173,
+    "min_fill": 57.54,
+    "max_fill": 77.889,
+    "mean_seconds": 0.012,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR11": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 89.055,
+    "min_fill": 87.053,
+    "max_fill": 91.079,
+    "mean_seconds": 5.089,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 80.992,
+    "min_fill": 74.822,
+    "max_fill": 85.493,
+    "mean_seconds": 0.114,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 68.374,
+    "min_fill": 57.017,
+    "max_fill": 74.716,
+    "mean_seconds": 0.013,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR12": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 88.377,
+    "min_fill": 86.519,
+    "max_fill": 91.082,
+    "mean_seconds": 5.097,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 80.159,
+    "min_fill": 73.114,
+    "max_fill": 84.603,
+    "mean_seconds": 0.111,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 66.992,
+    "min_fill": 59.45,
+    "max_fill": 73.836,
+    "mean_seconds": 0.014,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR13": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 87.688,
+    "min_fill": 85.729,
+    "max_fill": 89.868,
+    "mean_seconds": 5.068,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 79.614,
+    "min_fill": 73.283,
+    "max_fill": 83.0,
+    "mean_seconds": 0.121,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 65.411,
+    "min_fill": 57.194,
+    "max_fill": 73.746,
+    "mean_seconds": 0.017,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR14": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 87.156,
+    "min_fill": 84.859,
+    "max_fill": 89.39,
+    "mean_seconds": 5.067,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 79.13,
+    "min_fill": 73.164,
+    "max_fill": 83.677,
+    "mean_seconds": 0.123,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 64.389,
+    "min_fill": 54.023,
+    "max_fill": 71.022,
+    "mean_seconds": 0.019,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  },
+  "BR15": {
+   "problems": 100,
+   "planner": {
+    "mean_fill": 86.48,
+    "min_fill": 83.928,
+    "max_fill": 88.837,
+    "mean_seconds": 5.069,
+    "invalid": 0
+   },
+   "no_search": {
+    "mean_fill": 78.951,
+    "min_fill": 73.449,
+    "max_fill": 83.044,
+    "mean_seconds": 0.123,
+    "invalid": 0
+   },
+   "by_hand": {
+    "mean_fill": 63.882,
+    "min_fill": 55.627,
+    "max_fill": 71.251,
+    "mean_seconds": 0.02,
+    "invalid": 0
+   },
+   "seconds_limit": 5.0
+  }
+ },
+ "machine": {
+  "python": "3.13.16",
+  "cpus": 2,
+  "processor": "x86_64"
+ },
+ "averages": {
+  "BR1-7": {
+   "planner": 93.402,
+   "no_search": 84.226,
+   "by_hand": 77.882
+  },
+  "BR8-15": {
+   "planner": 88.846,
+   "no_search": 80.628,
+   "by_hand": 68.129
+  },
+  "BR1-15": {
+   "planner": 90.972,
+   "no_search": 82.307,
+   "by_hand": 72.68
+  }
+ },
+ "published": {
+  "T_BB": {
+   "BR1-7": 88.51
+  },
+  "BG_GA": {
+   "BR1-7": 90.06,
+   "BR8-15": 87.34,
+   "BR1-15": 88.61
+  },
+  "BG_PGA": {
+   "BR1-7": 90.43,
+   "BR8-15": 87.69,
+   "BR1-15": 88.97
+  },
+  "E_TRS": {
+   "BR1-7": 88.79
+  },
+  "B_NMP": {
+   "BR1-7": 90.55
+  },
+  "MO_GR": {
+   "BR1-7": 89.73,
+   "BR8-15": 84.13,
+   "BR1-15": 86.74
+  },
+  "FB_TRS": {
+   "BR1-7": 94.22,
+   "BR8-15": 89.88,
+   "BR1-15": 91.91
+  },
+  "BRKGA-CLP-S": {
+   "BR1-7": 94.53,
+   "BR8-15": 90.23,
+   "BR1-15": 92.24
+  }
+ },
+ "published_source": {
+  "title": "A parallel multi-population biased random-key genetic algorithm for a container loading problem",
+  "authors": "Jos\u00e9 Fernando Gon\u00e7alves, Mauricio G. C. Resende",
+  "journal": "Computers & Operations Research 39(2), 179-190, 2012",
+  "preprint": "https://optimization-online.org/wp-content/uploads/2010/07/2688.pdf",
+  "table": "Table 4"
+ }
+}

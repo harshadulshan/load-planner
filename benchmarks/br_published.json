@@ -1,0 +1,55 @@
+{
+  "what": "Mean volume utilisation (%) on the Bischoff & Ratcliff / Davies & Bischoff test sets BR1-BR15 (100 problems each), with every box fully supported from below. Copied from Table 4 of Gonçalves & Resende (2012).",
+  "source": {
+    "title": "A parallel multi-population biased random-key genetic algorithm for a container loading problem",
+    "authors": "José Fernando Gonçalves, Mauricio G. C. Resende",
+    "journal": "Computers & Operations Research 39(2), 179-190, 2012",
+    "preprint": "https://optimization-online.org/wp-content/uploads/2010/07/2688.pdf",
+    "table": "Table 4"
+  },
+  "sets": ["BR1", "BR2", "BR3", "BR4", "BR5", "BR6", "BR7", "BR8", "BR9", "BR10", "BR11", "BR12", "BR13", "BR14", "BR15"],
+  "methods": {
+    "T_BB": {
+      "name": "Terno et al. 2000 (branch and bound, EJOR)",
+      "fill": [89.9, 89.6, 89.2, 88.9, 88.3, 87.4, 86.3, null, null, null, null, null, null, null, null]
+    },
+    "BG_GA": {
+      "name": "Bortfeldt & Gehring 2001 (genetic algorithm, EJOR)",
+      "fill": [87.81, 89.40, 90.48, 90.63, 90.73, 90.72, 90.65, 89.73, 89.06, 88.40, 87.53, 86.94, 86.25, 85.55, 85.23]
+    },
+    "BG_PGA": {
+      "name": "Gehring & Bortfeldt 2002 (parallel genetic algorithm, ITOR)",
+      "fill": [88.10, 89.56, 90.77, 91.03, 91.23, 91.28, 91.04, 90.26, 89.50, 88.73, 87.87, 87.18, 86.70, 85.81, 85.48]
+    },
+    "E_TRS": {
+      "name": "Eley 2002 (tree search, EJOR)",
+      "fill": [88.0, 88.5, 89.5, 89.3, 89.0, 89.2, 88.0, null, null, null, null, null, null, null, null]
+    },
+    "B_NMP": {
+      "name": "Bischoff 2006 (EJOR)",
+      "fill": [89.39, 90.26, 91.08, 90.90, 91.05, 90.70, 90.44, null, null, null, null, null, null, null, null]
+    },
+    "MO_GR": {
+      "name": "Moura & Oliveira 2005 (GRASP, IEEE Intelligent Systems)",
+      "fill": [89.07, 90.43, 90.86, 90.42, 89.57, 89.71, 88.05, 86.13, 85.08, 84.21, 83.98, 83.64, 83.54, 83.25, 83.21]
+    },
+    "FB_TRS": {
+      "name": "Fanslau & Bortfeldt 2010 (tree search, INFORMS J. Computing), 320 s per problem",
+      "fill": [94.51, 94.73, 94.74, 94.41, 94.13, 93.85, 93.20, 92.26, 91.48, 90.86, 90.11, 89.51, 88.98, 88.26, 87.57]
+    },
+    "BRKGA-CLP-S": {
+      "name": "Gonçalves & Resende 2012 (parallel genetic algorithm), 232 s per problem",
+      "fill": [94.34, 94.88, 95.05, 94.75, 94.58, 94.39, 93.74, 92.65, 91.90, 91.28, 90.39, 89.81, 89.27, 88.57, 87.96]
+    }
+  },
+  "averages_from_table": {
+    "T_BB": {"BR1-7": 88.51},
+    "BG_GA": {"BR1-7": 90.06, "BR8-15": 87.34, "BR1-15": 88.61},
+    "BG_PGA": {"BR1-7": 90.43, "BR8-15": 87.69, "BR1-15": 88.97},
+    "E_TRS": {"BR1-7": 88.79},
+    "B_NMP": {"BR1-7": 90.55},
+    "MO_GR": {"BR1-7": 89.73, "BR8-15": 84.13, "BR1-15": 86.74},
+    "FB_TRS": {"BR1-7": 94.22, "BR8-15": 89.88, "BR1-15": 91.91},
+    "BRKGA-CLP-S": {"BR1-7": 94.53, "BR8-15": 90.23, "BR1-15": 92.24}
+  }
+}
